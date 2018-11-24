@@ -40,7 +40,7 @@ public class AlgoTest {
         BigInteger b = new BigInteger("33153");
         boolean result = Algo.euclidesAreCoprime(a, b);
 
-        assertFalse(result);
+        assertTrue(result); //bylo assertFalse
     }
 
     @Test
